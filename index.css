@@ -1,4 +1,102 @@
-/* Estilo do H1*/
-h1{
-    color: blue;
+body{
+    font-family: Helvetica,sans-serif;
 }
+
+.dark {
+    background-color: #2b313e;
+    color:#fcfcfd;
+}
+
+.light{
+    background-color: #fcfcfd;
+    color: #2b313e;
+}
+
+.container{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+section{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+section h3{
+    font-size: 1.7em;
+   margin-bottom: 0.5em;
+}
+
+header{
+    border-bottom: 1px solid #ccc;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+header li{
+    display: inline-block;
+    margin-left: 2em;
+}
+
+header li a {
+    color: #99a0b0;
+    font-size: 1.3em;
+    font-weight: lighter;
+}
+
+.identity{
+    background-color: #4285f4;
+    color: #fff;
+    padding: 7em 2em;
+}
+
+.identity h1{
+    font-size: 2.5em;
+    margin-bottom: 0.7em;
+}
+
+.identity h2{
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.projects li{
+    background-color: #6f768b;
+    padding: 1em;
+    margin-bottom: 2em;
+}
+
+.projects li a {
+    color: #fff;
+    
+}
+
+.projects li p{
+    color: #d2d6e2;
+    margin-top: 0.5em;
+}
+
+#sobre p.bio{
+    color: #4285f4;
+    font-size: 1.5em;
+    margin: 1em;
+}
+
+#sobre p.text{
+    margin: 0.9em;
+}
+
+#sobre img {
+    width: 200px;
+}
+
+#contatos li{
+    display: inline-block;
+    margin:1em
+}
+
+footer{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
