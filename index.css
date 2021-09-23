@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     font-family: Helvetica,sans-serif;
 }
@@ -27,10 +30,17 @@ section h3{
    margin-bottom: 0.5em;
 }
 
+section img{
+    width: 100%;
+    max-width: 300px;
+}
 header{
     border-bottom: 1px solid #ccc;
     padding-top: 1em;
     padding-bottom: 1em;
+    position: fixed;
+    width: 100%;
+    height: 3em;
 }
 
 header li{
@@ -47,7 +57,7 @@ header li a {
 .identity{
     background-color: #4285f4;
     color: #fff;
-    padding: 7em 2em;
+    padding:10em 7em 2em;
 }
 
 .identity h1{
@@ -60,6 +70,17 @@ header li a {
     font-weight: 300;
 }
 
+.projects-header{
+    float: left;
+    width: 30%;
+}
+
+.projects-header h3{
+    margin: top 1em;
+}
+.projects{
+    margin-left: 40%;
+}
 .projects li{
     background-color: #6f768b;
     padding: 1em;
@@ -76,6 +97,10 @@ header li a {
     margin-top: 0.5em;
 }
 
+#sobre{
+    position: relative;
+}
+
 #sobre p.bio{
     color: #4285f4;
     font-size: 1.5em;
@@ -86,8 +111,15 @@ header li a {
     margin: 0.9em;
 }
 
+#sobre p.bio, #sobre p.text{
+    width: 35%;
+}
+
 #sobre img {
     width: 200px;
+    position: absolute;
+    top: 2em;
+    right: 10%;
 }
 
 #contatos li{
