@@ -1,8 +1,13 @@
 *{
     box-sizing: border-box;
 }
+
 body{
     font-family: Helvetica,sans-serif;
+}
+
+a{
+    text-decoration: none;
 }
 
 .dark {
@@ -23,17 +28,20 @@ body{
 section{
     padding-top: 2em;
     padding-bottom: 2em;
+    text-align: center;
 }
 
 section h3{
     font-size: 1.7em;
    margin-bottom: 0.5em;
+   text-transform: uppercase;
 }
 
 section img{
     width: 100%;
     max-width: 300px;
 }
+
 header{
     border-bottom: 1px solid #ccc;
     padding-top: 1em;
@@ -41,6 +49,10 @@ header{
     position: fixed;
     width: 100%;
     height: 3em;
+}
+
+header ul{
+    text-align: right;
 }
 
 header li{
@@ -52,6 +64,7 @@ header li a {
     color: #99a0b0;
     font-size: 1.3em;
     font-weight: lighter;
+    text-transform: uppercase;
 }
 
 .identity{
@@ -95,6 +108,8 @@ header li a {
 .projects li p{
     color: #d2d6e2;
     margin-top: 0.5em;
+    text-align: justify;
+    line-height: 1.2;
 }
 
 #sobre{
@@ -105,10 +120,12 @@ header li a {
     color: #4285f4;
     font-size: 1.5em;
     margin: 1em;
+    line-height: 1.4;
 }
 
 #sobre p.text{
     margin: 0.9em;
+    text-align: justify;
 }
 
 #sobre p.bio, #sobre p.text{
