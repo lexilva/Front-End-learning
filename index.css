@@ -139,11 +139,38 @@ header li a {
     right: 10%;
 }
 
-#contatos li{
+#contato li{
     display: inline-block;
-    margin:1em
 }
 
+#contato li a{
+    display: inline-block;
+    margin:1em;
+    background-image: url('./email.png');
+    width: 48px;
+    height: 48px;
+    text-indent: -9999px;
+}
+
+#contato .email{
+    background-image: url('./email.png');
+}
+
+#contato .facebook{
+    background-image: url('./facebook.png');
+}
+
+#contato .github{
+    background-image: url('./github.png');
+}
+
+#contato .twitter{
+    background-image: url('./twitter.png');
+}
+
+#contato .linkedin{
+    background-image: url('./linkedin.png');
+}
 footer{
     padding-top: 1em;
     padding-bottom: 1em;
