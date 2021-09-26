@@ -1,0 +1,89 @@
+section{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: center;
+}
+
+section h3{
+    font-size: 1.7em;
+   margin-bottom: 0.5em;
+   text-transform: uppercase;
+}
+
+section img{
+    width: 100%;
+    max-width: 300px;
+}
+
+.identity{
+    background-color: #4285f4;
+    color: #fff;
+    padding:10em 7em 2em;
+}
+
+.identity h1{
+    font-size: 2.5em;
+    margin-bottom: 0.7em;
+}
+
+.identity h2{
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.projects-header{
+    float: left;
+    width: 30%;
+}
+
+.projects-header h3{
+    margin: top 1em;
+}
+.projects{
+    margin-left: 60%;
+}
+.projects li{
+    background-color: #6f768b;
+    padding: 1em;
+    margin-bottom: 2em;
+}
+
+.projects li a {
+    color: #fff;
+    
+}
+
+.projects li p{
+    color: #d2d6e2;
+    margin-top: 0.5em;
+    text-align: justify;
+    line-height: 1.2;
+}
+
+#sobre{
+    position: relative;
+}
+
+#sobre p.bio{
+    color: #4285f4;
+    font-size: 1.5em;
+    margin: 1em;
+    line-height: 1.4;
+}
+
+#sobre p.text{
+    margin: 0.9em;
+    text-align: justify;
+}
+
+#sobre p.bio, #sobre p.text{
+    width: 35%;
+}
+
+#sobre img {
+    width: 200px;
+    position: absolute;
+    top: 2em;
+    right: 10%;
+}
+
