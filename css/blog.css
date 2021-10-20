@@ -1,3 +1,76 @@
+*{
+    box-sizing: border-box;
+    }
+
+.clearfix{
+    clear: both;
+}
+
 h1{
-    color: blue;
+    color: rgb(3, 105, 238);
+    font-size: 100px;
+}
+
+h4{
+    color: rgb(3, 105, 238);
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 1em;   
+}
+
+section{
+    padding-top: 5em;
+    padding-bottom: 2em;
+    text-align: center;
+    width: 1250px;  
+}
+
+#main{
+    padding-top: 5em;
+}
+
+#main img{
+    width: 100%;
+    max-width: 600px;
+}
+
+.presentation{
+    float: left;
+}
+
+.title{
+    float: left;
+}
+
+
+.presentation li{
+    float: left;
+    width: 100%;
+    max-width: 250px;
+    padding: auto;
+}
+
+.blogs_about{
+    width: 100%;
+    max-width: 250px;
+    padding-left: 1em;
+    padding-bottom: 2em;
+}
+
+.blog_authors_pic{
+    max-width: 20%;
+    padding-left: 1em;
+    border-top: blue;
+}
+
+.blog_authors_pic img{
+    float: left;
+    width: 100%;
+    max-width: 100px;
+    padding-right: 1em;
+}
+
+.authors-descripition{
+    width: 100%;
+    max-width: 250px;
 }
