@@ -39,9 +39,11 @@ section img{
 .projects-header h3{
     margin: top 1em;
 }
+
 .projects{
     margin-left: 60%;
 }
+
 .projects li{
     background-color: #6f768b;
     padding: 1em;
@@ -87,3 +89,47 @@ section img{
     right: 10%;
 }
 
+@media (max-width: 768px) {
+    .menu ul {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 10px;
+    }
+
+    .identity {
+        padding: 10em 0 7em;
+    }
+
+    #projetos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projects-header {
+        width: 100%;
+        margin-bottom: 2em;
+    }
+
+    .projects {
+        margin-left: 0;
+    }
+
+    #sobre {
+        position: static;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #sobre img {
+        position: static;
+    }
+
+    .about-content p {
+        width: 100%;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
