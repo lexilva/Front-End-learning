@@ -121,12 +121,14 @@ section img{
         flex-direction: column;
     }
 
-    #sobre img {
+    #sobre .about-image img {
         position: static;
+        margin-bottom: 2em;
     }
 
-    .about-content p {
+    #sobre .about-content p {
         width: 100%;
+        margin: 0;
     }
 
     footer {
