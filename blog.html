@@ -7,10 +7,19 @@
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/blogb.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
     </head>
     <body>
         <header>
-            <nav>
+                <button class="btn-home">
+                    <a href="index.html"><i class="fas fa-home"></i></a>
+                </button>
+                <button class="btn-menu bg-gradient"> 
+                    <i class="fas fa-bars fa=lg">
+                    </i>
+                 </button>
+            <nav class="menu"> 
+                <a class="btn-close" ><i class="fa fa-times"></i></a>
                 <ul>
                     <li><a href="index.html">Página Inicial</a></li>
                     <li><a href="#causas">Causas</a></li> 
@@ -36,33 +45,33 @@
                 <section class="card" id="causas">
                     <p>
                     <h2>Possíveis Causas do Autismo:</h2>
-                       -  Deficiências e anormalidades cognitivas de causas genética e hereditária
-                       -  Alterações bioquímicas
-                       -  Anormalidade Cromossômica
-                       -  Fatores ambientais
+                       -  Deficiências e anormalidades cognitivas de causas genética e hereditária<br>
+                       -  Alterações bioquímicas<br>
+                       -  Anormalidade Cromossômica<br>
+                       -  Fatores ambientais<br>
                    </p>
                 </section>
                 <section class="card" id="caracteristicas">
                    <h2> Sinais do Autismo</h2>
                     <h3> Interação social</h3>
-                    <p> - Não olhar nos olhos
-                        - Risos e gargalhadas fora de hora
-                        - Dificuldade no relacionamento com outras crianças
-                        - Repetir sempre a mesma coisa 
+                    <p> - Não olhar nos olhos<br>
+                        - Risos e gargalhadas fora de hora<br>
+                        - Dificuldade no relacionamento com outras crianças<br>
+                        - Repetir sempre a mesma coisa <br>
                     </p>
                     
                         <h3> Comunicação e Linguagem</h3>
-                    <p> - Tem sempre a mesma expressão no rosto
-                        - Repete uma pergunta várias vezes em seguida
-                        - Comunicação retraída
+                    <p> - Tem sempre a mesma expressão no rosto<br>
+                        - Repete uma pergunta várias vezes em seguida<br>
+                        - Comunicação retraída<br>
                     </p>
                     
                     <h3> Comportamento e Personalidade</h3>
-                    <p> - Não tem medo de situações perigosas
-                        - Olha sempre na mesma direção
-                        - Fica sempre se balançando
-                        - Dificuldade de adaptar-se a novas rotinas
-                        - Ficam extremamente agitados em ambientes barulhentos
+                    <p> - Não tem medo de situações perigosas<br>
+                        - Olha sempre na mesma direção<br>
+                        - Fica sempre se balançando<br>
+                        - Dificuldade de adaptar-se a novas rotinas<br>
+                        - Ficam extremamente agitados em ambientes barulhentos<br>
                     </p>
                 </section>
                 <section class="card" id="niveis">
@@ -148,5 +157,14 @@
         <footer class="dark container">
             © Alex Sandro, outubro 2021. 
         </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script>
+            $(".btn-menu").click(function(){
+                $(".menu").show();
+            });
+            $(".btn-close").click(function(){
+                $(".menu").hide();
+            });
+        </script>
     </body>
 </html>

@@ -1,76 +1,74 @@
 *{
     box-sizing: border-box;
-    }
-
-.clearfix{
-    clear: both;
 }
-
+.main-content:after{
+    content: '';
+    display: table;
+    clear:both;
+    padding-bottom: 20px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 20px;
+    background-color: #60b3f1;
+    color: #006eff;
+}
+header{
+    background-color: #ffffff;
+    padding: 30px;
+    position: relative;
+    padding-bottom: 3em;
+}
 h1{
-    color: rgb(3, 105, 238);
-    font-size: 100px;
-}
-
-h4{
-    color: rgb(3, 105, 238);
-    font-size: 18px;
-    font-weight: bold;
-    padding-bottom: 1em;   
-}
-
-section{
-    padding-top: 5em;
-    padding-bottom: 2em;
+    font-size: 50px;
     text-align: center;
-    width: 1250px;  
+    padding-bottom: 1em;
+    font-weight: bold;
 }
-
-#main{
-    padding-top: 5em;
+h2{
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 1em;
+    font-weight: bold;
 }
-
-#main img{
-    width: 100%;
-    max-width: 600px;
+h3{
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 1em;
 }
-
-.presentation{
+h4{
+    font-style: italic;
+    font-weight: lighter;
+    padding-bottom: 1em;
+}
+.left-column{
     float: left;
+    width: 75%;
 }
-
-.title{
-    float: left;
+.right-column{
+    float: right;
+    width: 25%;
+    padding-left: 20px;
 }
-
-
-.presentation li{
-    float: left;
+section p{
+    padding-bottom: 1em;
+    font-size: 16px;
+}
+#me{
+    width:170px;
+    height: 200px;float: left;
+    padding-right: 15px;
+}
+.card{
+    padding: 30px;
+    background-color: #ffffff;
+    margin-top: 20px;
+}
+.card img{
     width: 100%;
-    max-width: 250px;
-    padding: auto;
+    border-radius: 10px;
 }
-
-.blogs_about{
-    width: 100%;
-    max-width: 250px;
-    padding-left: 1em;
-    padding-bottom: 2em;
-}
-
-.blog_authors_pic{
-    max-width: 20%;
-    padding-left: 1em;
-    border-top: blue;
-}
-
-.blog_authors_pic img{
-    float: left;
-    width: 100%;
-    max-width: 100px;
-    padding-right: 1em;
-}
-
-.authors-descripition{
-    width: 100%;
-    max-width: 250px;
+footer{
+    padding-top: 20px;
 }
