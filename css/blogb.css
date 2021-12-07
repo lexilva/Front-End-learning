@@ -78,7 +78,7 @@ footer{
 }
 
 @media screen and (max-width:480px) {
-    .menu{display: none;}
+    
     .btn-home{display: flex; font-size: 1.5em;width: 90px;height:90px;justify-content: center;align-items: center;border: none;background: none;}
     .btn-menu{display: flex;font-size: 1.5em; width: 56px;height: 56px;justify-content: center;align-items: center;border-radius: 32px;border: none;cursor: pointer;}
     .menu{
@@ -95,9 +95,21 @@ footer{
     p{padding-top: 1em;}
     .left-column{display: flex; padding: 10px;flex-direction: column;width: 100%;justify-content: center;}
     .right-column{display: flex;padding: 10px; flex-direction: column;width: 100%;justify-content: center;}
-    #me{display: flex;  flex-direction: column;width: 135px;height: 160px;border-radius: 5px;padding-bottom: 1em;text-align: justify;}
+    #me{display: flex;  flex-direction: column;width: 135px;height: 160px;border-radius: 20px  20px;padding-bottom: 1em;text-align: justify;}
     h1{font-size: 40px;line-height: 1px;}
     h2{font-size: 30px;}
     .card img{display: flex;flex-direction: column;}
+}
+@media screen and (min-width:481px){
+    .menu{display: inline;justify-items: flex-start; }
+    .menu li{font-size: 10px;padding: left 0;align-items: flex-start;  }
+    p {display: flex;}
+    #me{width: 100px;height:120px;padding-bottom: 0.5em;}
     
 }
+
+@media screen and (min-width:700px) {
+    .menu li{font-size: 14px;}
+    #me{width:170px; height: 200px;float: left;padding-right: 15px;}
+}
+    

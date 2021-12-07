@@ -20,12 +20,12 @@
                  </button>
             <nav class="menu"> 
                 <a class="btn-close" ><i class="fa fa-times"></i></a>
-                <ul>
-                    <li><a href="index.html">Página Inicial</a></li>
-                    <li><a href="#causas">Causas</a></li> 
-                    <li><a href="#caracteristicas">caracteristicas</a></li>                      
-                    <li><a href="#niveis">Níveis</a></li>
-                    <li><a href="#tratamento">tratamento</a></li>
+                <ul class="menuMob">
+                    <li class="menuMobitem"><a href="index.html">Página Inicial</a></li>
+                    <li class="menuMobitem"><a href="#causas">Causas</a></li> 
+                    <li class="menuMobitem"><a href="#caracteristicas">caracteristicas</a></li>                      
+                    <li class="menuMobitem"><a href="#niveis">Níveis</a></li>
+                    <li class="menuMobitem"><a href="#tratamento">tratamento</a></li>
                 </ul>
             </nav>
         </header>
@@ -150,6 +150,9 @@
                  <section class="card" >
                     <a href="https://www.alphafono.com.br/terapia-aba-para-autismo/"><img src="images/terapia_aba-1.png" alt="terapia-aba-para-autismo"/></a>
                  </section>
+                 <section class="card">
+                    <a href="https://www.youtube.com/watch?v=x8SNpeDvYHU"><img src="../HTML/images/kodi lee.jpg" alt="fotografia de Kodi Lee"></a>
+                 </section>
                  
             </div>
 
@@ -165,6 +168,10 @@
             $(".btn-close").click(function(){
                 $(".menu").hide();
             });
+            const $menuMob =document.querySelector(".menuMob")
+            $menuMob.addEventListener('click',function(){
+                $(".menu").hide()
+            })
         </script>
     </body>
 </html>
