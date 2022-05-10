@@ -88,7 +88,10 @@ section img{
     top: 2em;
     right: 10%;
 }
-
+.bg-gradient{ background: linear-gradient(to right,#006eff,#60b3f1)}
+.btn-home{display: none;color: #fff;}
+.btn-menu{display: none;}
+.btn-close{display: none;}
 @media (max-width: 768px) {
     .menu ul {
         display: flex;
